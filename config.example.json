@@ -1,0 +1,16 @@
+{
+  "vaultPath": "/absolute/path/to/your/vault",
+  "includeGlobs": ["**/*.md"],
+  "excludeGlobs": ["**/node_modules/**"],
+  "ollamaUrl": "http://localhost:11434",
+  "embedModel": "bge-m3",
+  "indexPath": "index.db",
+  "topK": 8,
+  "defaultExclude": ["archive", "plans"],
+  "minScore": 0.55,
+  "relativeCutoff": 0.88,
+  "lexicalMaxDocFreq": 0.01,
+  "pathBoosts": { "reference/": 1.15, "decisions/": 1.1 },
+  "serverName": "docs-search",
+  "toolDescription": "Semantic search over my markdown knowledge base. Use it to recall notes, design docs and past decisions."
+}

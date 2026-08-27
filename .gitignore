@@ -1,0 +1,12 @@
+node_modules/
+dist/
+config.json
+index.json
+index.json.bak
+index.db*
+.DS_Store
+CLAUDE.md
+.claude/
+docs/superpowers/
+*.tgz
+.superpowers/
