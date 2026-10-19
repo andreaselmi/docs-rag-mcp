@@ -135,6 +135,16 @@ published package rather than your working tree.
 
 </details>
 
+## Agent skill
+
+[`skills/docs-rag`](skills/docs-rag/SKILL.md) is a SKILL.md skill that
+teaches the agent to use this server well. It covers how to set it up, how
+to weigh `[semantic]` / `[both]` / `[exact match]` hits, why
+"No relevant results" is an answer rather than a bug, and how to record a
+changed decision so the old one stops being returned. Copy the folder into
+`~/.claude/skills/` (or your agent's skills directory). `yarn pack-skill`
+builds a standalone zip that also includes `AUTHORING.md`.
+
 ## The commands
 
 ```

@@ -10,3 +10,4 @@ CLAUDE.md
 docs/superpowers/
 *.tgz
 .superpowers/
+dist-skill/

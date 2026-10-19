@@ -43,7 +43,8 @@
     "serve": "tsx src/server.ts",
     "build": "tsc",
     "test": "tsx --test tests/*.test.ts",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "pack-skill": "bash scripts/pack-skill.sh"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
